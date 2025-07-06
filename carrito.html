@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tu carrito de compras en BAXTECH.">
+    <title>BAXTECH - Carrito de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <h1>BAXTECH</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="carrito.html" class="carrito-icono">🛒 Carrito <span id="contador-carrito">0</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class="titulo-carrito">Tu Carrito de Compras</h2>
+            <section id="contenedor-carrito">
+                <!-- Productos del carrito se renderizan aquí -->
+            </section>
+            <section id="resumen-carrito">
+                <!-- El resumen del carrito se renderiza aquí -->
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 BAXTECH. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+
+</html>
